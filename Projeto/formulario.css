@@ -1,21 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 
 *{
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'DM Sans';
 }
 
-.bg {
-    background-image: url(Logo.jpeg);
-    background-attachment: fixed;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-color: black;
+body {
+
+    background-color: rgb(208, 255, 200);
 	
 	
 }
+
+
 
 #menuh ul{
     margin: 0 auto;    
@@ -55,30 +54,26 @@
 
 .txt1 {
     text-align: center;
-    margin-top: 150px;
-    font-size: 42px;
-    font-family: 'Courier New', Courier, monospace;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-top: -400px;
+    margin-right: 0px;
+    font-family: 'DM Sans';  
     font-weight: bold;
     color: #fff;
+    font-size: 50px;
 }
 
 .txt2 {
     text-align: center;
-    margin-left: 50px;
-    margin-right: 50px;
     margin-top: 10px;
-	margin-bottom: 50px;
     color: #fff;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 28px;
+    font-family: 'DM Sans'; 
+    font-size: 50px;
 }
 
 .fotomenu {
     position: absolute;
     top: 7px;
-    width: 80px;
+    width: 100px;
     height: 50px;
     margin-left: 25px; 
 	
@@ -88,21 +83,49 @@
     border-top: 3px solid green;
 }
 
-fieldset {
-	float: left;
-	margin-right: 1em;
-	justify-content: center;
-	width:480px;
-	height:500px;
-	background-color: rgba(0,35,0, 0.4);
+
+
+
+.fundo img {
+    Width: 100%;
+    height: 570px;
 }
 
+.fundo1 {
+    position: absolute;
+    top: 100px;
+    left: 80px;
+    
+}
+
+.fundo2 {
+    position: absolute;
+    margin-top: 1200px;
+    left: 80px;
+    
+    
+}
+
+fieldset {
+	border: 0;
+	margin-top: 300px;
+}
+
+fieldset .voluntario .aluno{
+	width:480px;
+	height:550px;
+	background-color: rgb(0,35,0);
+	float: down;
+	padding-top: 2em;
+}
+
+
 .campo1 label, .title{
-	margin-bottom: 0.2em;
+	margin-bottom: 0.5em;
 	display: block;
-	font-family: 'Courier New', Courier, monospace;
+	font-family: 'DM Sans';
 	font-size: 28px;
-	color: #fff;
+	color: #000;
 	font-weight: bold;
 	justify-content: center;
 	margin-left: 60px;
@@ -111,27 +134,49 @@ fieldset {
 
 .campo1 input[type="text"], .campo1 input[type="tel"], .campo1 input[type="email"], .campo1 input[type="date"], select {
 	padding: 0.2em;
-	border: 1px;
+	border: 1px solid;
 	margin-left: 60px;
-	width: 350px;
+	width: 500px;
 }
 
 .botao1 {
-	font-size: 1.1em;
+	font-size: 1.2em;
+	background: green solid;
 	border: 0;
-	box-shadow: 1px, 1px, 1px, rgba(0,0,0,02);
+	box-shadow: 2px, 2px, 2px, rgba(0,0,0,0.2);
 	margin-left: 60px;
-	margin-top: 2%;
-	margin-bottom: 2%;
+	margin-top: 1em;
+	margin-bottom: 1em;
 	text-align: center;
+	text-shadow: 1px, 1px, 1px, rgba(0,0,0,0.5);
+	padding:0.2em 0.6em;	
+	
 }
 
-.campo2 label{
-	margin-bottom: 0.2em;
+.fotoaluno {
+	float:right;
+	border:1px solid;
+	margin-top: 75px;
+	margin-right: 15%;
+	width:580px;
+	height:350px;
+}
+
+.fotovoluntario{
+	float:right;
+	border:1px solid;
+	margin-top: 100px;
+	margin-right: 15%;
+	width: 31%;
+	height: 31%;
+}
+
+.campo2 label {
+	margin-bottom: 0.5em;
 	display: block;
-	font-family: 'Courier New', Courier, monospace;
+	font-family: 'DM Sans';
 	font-size: 28px;
-	color: #fff;
+	color: #000;
 	font-weight: bold;
 	justify-content: center;
 	margin-left: 60px;
@@ -140,28 +185,51 @@ fieldset {
 
 .campo2 input[type="text"], .campo2 input[type="tel"], .campo2 input[type="email"], .campo2 input[type="date"] {
 	padding: 0.2em;
-	border: 1px;
+	border: 1px solid;
 	margin-left: 60px;
 	display: block;
-	width: 350px;
+	width: 500px;
+	
 }
 
 .botao2 {
-	font-size: 1.1em;
+	font-size: 1.2em;
+	background: green solid;
 	border: 0;
-	box-shadow: 1px, 1px, 1px, rgba(0,0,0,02);
+	box-shadow: 2px, 2px, 2px, rgba(0,0,0,0.2);
 	margin-left: 60px;
-	margin-top: 2%;
-	margin-bottom: 2%;
+	margin-top: 1em;
+	margin-bottom: 1em;
 	text-align: center;
-	display: inline-block;
+	text-shadow: 1px, 1px, 1px, rgba(0,0,0,0.5);
+	padding:0.2em 0.6em;	
+	
 }
 
-.grupo1{
-	margin-left: 450px;
+footer{
+    padding: 60px 4%;
+    margin-top: 70px;
+    background-color: #ffffff;
 }
 
-.grupo2{
-	float: right;
-	margin-right: 450px;
+footer .container{
+    max-width: 1100px;
+	margin-bottom: 15px
+}
+
+footer .footer-block{
+    float: left;
+    width: 33.3%;
+}
+
+.footer-block h2{
+    color: rgb(75, 72, 72);
+    font-weight: normal;
+    font-size: 18px;
+	margin-top: -35px;
+}
+
+.footer-block p{
+    color: rgb(75, 72, 72);
+    font-size: 14px;
 }
